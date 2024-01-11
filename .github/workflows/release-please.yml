@@ -14,3 +14,5 @@ jobs:
         with:
           release-type: simple
           package-name: release-please-action
+          extra-files: |
+            galaxy.yml
