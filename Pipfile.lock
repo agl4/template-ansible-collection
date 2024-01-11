@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e401831771e7c410ff8656cc1b4d1a65c16f797ffe372872744cf05058a61aea"
+            "sha256": "1dbecd0088ea8b0a604ff40b8061ec5a69fdb856fd3bc41e671ffbe6afb7cb56"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -109,16 +109,17 @@
                 "sha256:e3114da6d7f95d2dee7d3f4eec16dacff819740bbab931aff8648cb13c5ff5e7",
                 "sha256:f983596065a18a2183e7f79ab3fd4c475205b839e02cbc0efbbf9666c4b3083d"
             ],
+            "index": "PyPi",
             "markers": "python_version >= '3.7'",
             "version": "==41.0.7"
         },
         "jinja2": {
             "hashes": [
-                "sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852",
-                "sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61"
+                "sha256:7d6d50dd97d52cbc355597bd845fabfbac3f551e1f99619e39a35ce8c370b5fa",
+                "sha256:ac8bd6544d4bb2c9792bf3a159e80bba8fda7f07e81bc3aed565432d5925ba90"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==3.1.2"
+            "version": "==3.1.3"
         },
         "markupsafe": {
             "hashes": [
@@ -266,6 +267,14 @@
         }
     },
     "develop": {
+        "ansible": {
+            "hashes": [
+                "sha256:4e758da22ff7a95ed2ab30cef12860407be68f65527af66a5b828739f634415a",
+                "sha256:cc06c251f142837cf540b7977724596a94f3d0fe9da9619175e9de6539cd0705"
+            ],
+            "markers": "python_version >= '3.10'",
+            "version": "==9.0.1"
+        },
         "ansible-compat": {
             "hashes": [
                 "sha256:74a91807808a39af48ab6595811b9340d1458db26b138362f48bf39292190705",
@@ -291,6 +300,13 @@
             "index": "PyPi",
             "markers": "python_version >= '3.9'",
             "version": "==6.22.0"
+        },
+        "ansible-vault": {
+            "hashes": [
+                "sha256:5ce8fdb5470f1449b76bf07ae2abc56480dad48356ae405c85b686efb64dbd5e"
+            ],
+            "index": "PyPi",
+            "version": "==2.1.0"
         },
         "attrs": {
             "hashes": [
@@ -532,6 +548,7 @@
                 "sha256:e3114da6d7f95d2dee7d3f4eec16dacff819740bbab931aff8648cb13c5ff5e7",
                 "sha256:f983596065a18a2183e7f79ab3fd4c475205b839e02cbc0efbbf9666c4b3083d"
             ],
+            "index": "PyPi",
             "markers": "python_version >= '3.7'",
             "version": "==41.0.7"
         },
@@ -553,11 +570,11 @@
         },
         "jinja2": {
             "hashes": [
-                "sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852",
-                "sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61"
+                "sha256:7d6d50dd97d52cbc355597bd845fabfbac3f551e1f99619e39a35ce8c370b5fa",
+                "sha256:ac8bd6544d4bb2c9792bf3a159e80bba8fda7f07e81bc3aed565432d5925ba90"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==3.1.2"
+            "version": "==3.1.3"
         },
         "jsonschema": {
             "hashes": [
@@ -959,6 +976,14 @@
             ],
             "markers": "python_version < '3.13' and platform_python_implementation == 'CPython'",
             "version": "==0.2.8"
+        },
+        "setuptools": {
+            "hashes": [
+                "sha256:385eb4edd9c9d5c17540511303e39a147ce2fc04bc55289c322b9e5904fe2c05",
+                "sha256:be1af57fc409f93647f2e8e4573a142ed38724b8cdd389706a867bb4efcf1e78"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==69.0.3"
         },
         "subprocess-tee": {
             "hashes": [
