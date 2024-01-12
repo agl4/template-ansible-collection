@@ -1,4 +1,6 @@
-install:
+PHONY: dev clean-ansible clean-pipenv
+
+install :
 ifeq (,$(wildcard ./ansible.cfg))
 	$(error Missing ansible.cfg)
 endif
@@ -7,12 +9,17 @@ ifeq (,$(wildcard ./vault_pass.txt))
 endif
 	asdf install
 	pipenv install
-	pipenv run ansible-galaxy install -fr ./requirements.yml
+	pipenv run ansible-galaxy install -r ./requirements.yml
 
-PHONY: dev
-dev:
+dev :
 	pipenv install --dev
 
-clean:
+clean-ansible :
+	rm -rf ./.cache
+
+clean-pipenv :
+	pipenv --rm
+
+clean :
 	rm -rf ./.cache
 	pipenv --rm
