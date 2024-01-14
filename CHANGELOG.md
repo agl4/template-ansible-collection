@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/agoloncser/template-ansible-collection/compare/v1.0.0...v1.1.0) (2024-01-14)
+
+
+### Features
+
+* Add jinja2 to Pipfile ([8e3faee](https://github.com/agoloncser/template-ansible-collection/commit/8e3faee2e00c29ef47f4ba7c44571e1ef8d0ec19))
+
 ## 1.0.0 (2024-01-14)
 
 
