@@ -1,20 +1,18 @@
 [[source]]
-url = "https://pypi.python.org/simple"
+url = "https://pypi.org/simple"
 verify_ssl = true
-name = "PyPi"
-
-[dev-packages]
-ansible-lint = "6.22.0"
-yamllint = "1.33.0"
-ansible-vault = "2.1.0"
+name = "pypi"
 
 [packages]
-ansible-core = "2.16.0"
-cryptography = "41.0.7"
+ansible-core = "==2.16.3"
+molecule-docker = "==2.1.0"
 
-# Dependabot alerts:
+# Dependabot alers
+cryptography = "==42.0.1"
+urllib3 = "==2.2.0"
 jinja2 = "==3.1.3"
+
+[dev-packages]
 
 [requires]
 python_version = "3.12"
-
